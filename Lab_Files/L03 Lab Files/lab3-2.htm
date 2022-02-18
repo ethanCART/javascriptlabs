@@ -5,16 +5,14 @@
 <title>Lab 3-2</title>
 
 <script type="text/javascript">
-<!--
 
-/******************************************************
-Define a function that takes arguments on function call
-******************************************************/
-  
-/******************************************************
-Define a function that takes returns a value
-******************************************************/
+  function yellowBus() {
+alert("This function has been called with an argument")
+  }
 
+function apologyVideo() {
+    return alert("Hi, this value is returned from a function")
+}
 //-->
 </script>
 
@@ -25,11 +23,10 @@ Define a function that takes returns a value
 <h3>CIW JavaScript Specialist</h3>
 <hr />
 
-<!-- Add an onclick event handler to call the function -->
 
 <form name="myForm">
-<input type="button" value="Call Function with arguments" /><br />
-<input type="button" value="Call Function with return" />
+<input type="button" value="Call Function with arguments" onclick="yellowBus" /><br />
+<input type="button" value="Call Function with return" onclick="apologyVideo">
 </form>
 
 </body>
