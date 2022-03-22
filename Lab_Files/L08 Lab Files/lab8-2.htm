@@ -5,10 +5,23 @@
 <title>Lab 8-2</title>
 
 <script type="text/javascript">
-<!--
+
     
 // create a class here
-
+class uncrustables {
+    constructor(name, brand) {
+        this.name = name;
+        this.brand = brand;
+    }
+    display() {
+document.write('the name of this device is' + this.name + 'and their brand is' + this.brand)
+    }
+}
+class pbj extends uncrustables {
+    display(){
+        document.write('the name of this device is' + this.name + 'and their brand is' + this.brand)
+    }
+}
 
 //-->
 </script>
