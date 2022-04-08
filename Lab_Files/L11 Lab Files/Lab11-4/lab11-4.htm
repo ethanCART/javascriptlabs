@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <title>Lab 11-4</title>
 <script type="text/javascript">
-<!-- 
+ 
     var myColor = prompt("Please enter a hexadecimal color code (must be 6 characters, including 0 thru 9 and A thru F):","FFFFFF");
 	var myName = prompt("Please enter your name:","Cookie Monster");
 
@@ -19,7 +19,7 @@
         alert(message);
     } 
     else {
-		document.cookie="testCookie=" + "YColor=" + myColor + " " + "name=" + myName + ";expires=20-May-2018"; // the expiry date must be somewhere in the future, or the cookie will not be set in Firefox or Chrome
+		document.cookie="testCookie=" + "YColor=" + myColor + " " + "name=" + myName + ";expires=20-May-2019"; // the expiry date must be somewhere in the future, or the cookie will not be set in Firefox or Chrome
         message= "Here is the cookie that was set on your system:  ";
         message += document.cookie;
         alert(message);
@@ -45,7 +45,6 @@
 <h3>CIW JavaScript Specialist</h3>
 <hr />
 <script type="text/javascript">
-<!-- 
 
     if ((pos == null) || (pos == "")) pos = "#ffffff";
     document.bgColor = pos;
